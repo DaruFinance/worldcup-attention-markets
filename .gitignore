@@ -1,0 +1,15 @@
+# Data is not redistributed (see README "Data" section). Keep the tree, drop the contents.
+data/
+analysis/out/
+figures/*.pdf
+figures/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
