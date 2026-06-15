@@ -1,0 +1,11 @@
+test,outcome,coef,se,p,n,treated_clusters,total_clusters,treated
+"intraday (1min-taq, 2014/18/22)",log(option volume),-0.07875,0.05455,0.15172,42960,42,111,
+"intraday (1min-taq, 2014/18/22)",put/call vol ratio,2.82347,1.44917,0.05392,42919,42,111,
+"intraday (1min-taq, 2014/18/22)",log(put/call ratio),0.00427,0.02919,0.88402,42914,42,111,
+intraday lvol 2014-only,log(option volume),-0.01567,0.13423,0.90771,14820,12,38,
+intraday lvol 2018-only,log(option volume),-0.12974,0.06278,0.04582,14655,16,38,
+intraday lvol 2022-only,log(option volume),0.09592,0.087,0.27845,12705,14,33,
+"day-level (daily-greeks, 2018/22)",ATM IV [dummy],0.00357,0.00411,0.38766,74,30,74,30.0
+"day-level (daily-greeks, 2018/22)",25d skew (put-call) [dummy],0.00297,0.00216,0.17263,74,30,74,30.0
+"day-level (daily-greeks, 2018/22)",25d put IV [dummy],0.00258,0.00427,0.54663,74,30,74,30.0
+"day-level (daily-greeks, 2018/22)",25d call IV [dummy],-0.00039,0.00337,0.90795,74,30,74,30.0

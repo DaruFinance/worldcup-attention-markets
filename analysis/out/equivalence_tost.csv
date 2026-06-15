@@ -1,0 +1,11 @@
+estimate,coef,se,equiv_margin_pct,rejects_30pct,tost_p_vs_30
+during-match volume / ALL,0.023,0.0438,10.0,yes,0.0
+during-match volume / crypto_spot,-0.0272,0.0363,9.1,yes,0.0
+during-match volume / crypto_perp,-0.0398,0.0696,16.7,yes,0.0007
+during-match volume / equity_fut,-0.0298,0.0698,15.5,yes,0.0004
+during-match volume / commodity_fut,0.0699,0.0665,19.6,yes,0.0019
+during-match volume / fx_fut,0.1043,0.0658,23.7,yes,0.0081
+pooled own-team volume (2 tournaments),0.1041,0.0737,25.3,yes,0.0159
+pooled own-team volume (4 tournaments),0.0857,0.0642,21.1,yes,0.003
+liquidity / log rel-spread (bps),0.0023,0.0051,1.1,yes,0.0
+liquidity / log depth,-0.0274,0.0154,5.4,yes,0.0

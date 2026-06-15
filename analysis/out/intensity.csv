@@ -1,0 +1,10 @@
+outcome,term,coef,se,p,n,close_match_days,etpen_days
+lvol,match,0.0227,0.0533,0.6708,1506152,65,10
+lvol,x closeness(+1SD),-0.0329,0.0352,0.3503,1506152,65,10
+lvol,x extra-time/penalties,-0.062,0.1395,0.657,1506152,65,10
+ltrades,match,0.0188,0.0551,0.7328,1506152,65,10
+ltrades,x closeness(+1SD),-0.0354,0.0358,0.3243,1506152,65,10
+ltrades,x extra-time/penalties,-0.0357,0.1361,0.7934,1506152,65,10
+absret,match,0.0,0.0,0.0696,1506145,65,10
+absret,x closeness(+1SD),-0.0,0.0,0.7036,1506145,65,10
+absret,x extra-time/penalties,0.0,0.0,0.5012,1506145,65,10

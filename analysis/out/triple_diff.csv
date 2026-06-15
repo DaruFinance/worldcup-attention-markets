@@ -1,0 +1,5 @@
+outcome,term,label,coef,se,t,p,pct,n,own_knock_treated_dates,own_treated_dates,knock_treated_dates,own_knock_treated_minutes
+lvol,match,match (base),-0.0191,0.0596,-0.321,0.7483,-1.9,1064189,19,60,20,2350
+lvol,m_own,match:own,0.1149,0.0547,2.103,0.0367,12.18,1064189,19,60,20,2350
+lvol,m_knock,match:knock,0.0694,0.1332,0.521,0.6028,7.19,1064189,19,60,20,2350
+lvol,m_own_knock,match:own:knock (DDD),-0.1169,0.101,-1.158,0.2483,-11.04,1064189,19,60,20,2350

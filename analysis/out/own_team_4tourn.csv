@@ -1,0 +1,5 @@
+outcome,term,coef,se,p,pct,n,own_treated_dates
+lvol,foreign_match,-0.0044,0.0533,0.934,-0.44,1064189,60
+lvol,own_match,0.0857,0.0642,0.1832,8.95,1064189,60
+ltrades,foreign_match,-0.0064,0.0552,0.9072,-0.64,1064189,60
+ltrades,own_match,0.0988,0.0725,0.1747,10.39,1064189,60

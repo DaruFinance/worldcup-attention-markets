@@ -1,0 +1,5 @@
+spec,match_blocks,ctrl_blocks,comov_match,comov_ctrl,ninst_match,ninst_ctrl,coef,se,p
+crypto_only (composition-free),128,460,0.7259,0.7285,3.0,3.04,0.0121,0.0198,0.5406
+all_avail (raw - composition-confounded),128,460,0.3899,0.4905,7.82,6.44,-0.0855,0.03,0.005
+all_avail +ninst control,128,460,0.3899,0.4905,7.82,6.44,0.0021,0.023,0.9282
+all_avail fully-open 11-inst (composition-free),45,120,0.411,0.3904,11.0,11.0,0.0101,0.0216,0.6429

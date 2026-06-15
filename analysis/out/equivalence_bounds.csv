@@ -1,0 +1,13 @@
+group,outcome,pct_point,pct_lo,pct_hi
+ALL,lvol,2.33,-6.09,11.51
+ALL,ltrades,2.35,-5.62,10.99
+crypto_spot,lvol,-2.68,-9.37,4.5
+crypto_spot,ltrades,-1.61,-6.98,4.07
+crypto_perp,lvol,-3.9,-16.16,10.15
+crypto_perp,ltrades,-3.98,-15.07,8.56
+equity_fut,lvol,-2.93,-15.34,11.29
+equity_fut,ltrades,-1.28,-13.48,12.65
+commodity_fut,lvol,7.24,-5.86,22.16
+commodity_fut,ltrades,5.93,-6.89,20.51
+fx_fut,lvol,11.0,-2.42,26.26
+fx_fut,ltrades,9.71,-3.04,24.14

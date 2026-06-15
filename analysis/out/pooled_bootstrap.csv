@@ -1,0 +1,3 @@
+cell,match_days,effect_pct,t,p_asymptotic,p_wildboot
+"Own-team pooled, all-mapped (2 tourn.)",28,11.0,1.46,0.1613,0.1546
+"Own-team pooled, FX-only (2 tourn.)",28,14.9,1.71,0.102,0.1066

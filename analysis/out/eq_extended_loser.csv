@@ -1,0 +1,14 @@
+spec,term,bps,se_bps,p,clusters
+pooled all (20 idx),postL,-0.5,9.1,0.9591,110
+pooled all (20 idx),postW,3.6,8.1,0.6583,110
+pooled all (20 idx),postD,-4.8,9.5,0.6145,110
+emerging only,postL,35.7,23.5,0.128,51
+emerging only,postW,47.3,25.9,0.0677,51
+emerging only,postD,-0.8,33.9,0.98,51
+developed only,postL,-15.2,10.2,0.1371,103
+developed only,postW,-10.1,6.9,0.1408,103
+developed only,postD,-9.0,9.6,0.3494,103
+elim-split,postL,-5.1,14.0,0.7143,110
+elim-split,postL_elim,10.1,17.2,0.5586,110
+size: postL x emerging,postL,-10.4,9.5,0.2773,110
+size: postL x emerging,postL_emerg,44.7,22.5,0.0473,110

@@ -1,0 +1,6 @@
+spec,term,bps,se_bps,p,n
+all matches,postL,-39.1,21.9,0.0754,4178
+all matches,postW,-70.5,32.0,0.0289,4178
+all matches,postD,-50.6,32.9,0.1256,4178
+elim-split,postL,-25.5,24.8,0.304,4178
+elim-split,postL_elim,-34.9,27.7,0.2084,4178

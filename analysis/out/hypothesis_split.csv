@@ -1,0 +1,14 @@
+panel,cell,effect_pct,ci_lo,ci_hi,decline_excluded_beyond_pct,MDE_pct,clusters,resolution,marginal_trader
+global,"Crypto spot (BTC,ETH)",-2.7,-9.4,4.5,9.4,10.7,48,1-min,global retail
+global,Crypto perpetual,-3.9,-16.2,10.1,16.2,21.5,23,1-min,global retail/levered
+global,"Equity-index futures (ES,NQ)",-2.9,-15.3,11.3,15.3,21.6,31,1-min,global institutional
+global,"Commodity futures (GC,CL)",7.2,-5.9,22.2,5.9,20.5,31,1-min,global
+global,"FX futures, average match",11.0,-2.4,26.3,2.4,20.2,31,1-min,global automated
+global,All instruments pooled,2.3,-6.1,11.5,6.1,13.0,48,1-min,global
+local,"Euro futures 6E, euro-area matches",12.7,0.6,26.2,0.0,17.6,60,1-min,global (not euro viewer)
+local,"Sterling futures 6B, England matches",-30.0,-44.0,-12.5,44.0,37.5,10,1-min,global (not UK viewer)
+local,"Yen futures 6J, Japan matches",15.1,-7.3,42.8,7.3,36.2,11,1-min,global (not JP viewer)
+local,Own-team futures pooled (2 tourn.),11.0,-4.0,28.2,4.0,22.9,28,1-min,global
+local,Own-team futures pooled (4 tourn.),8.9,-3.9,23.6,3.9,19.7,60,1-min,global
+local,"Country ETFs, own-country matches",-4.7,-17.2,9.7,17.2,22.3,55,1-min,US (not home viewer)
+local,"Home equities, own-match day",-0.6,-10.7,10.7,10.7,16.6,63,DAILY,home (right trader)

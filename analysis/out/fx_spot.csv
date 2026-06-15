@@ -1,0 +1,4 @@
+test,coef,pct,se,p,n,own_match_days
+FX spot: during-match (tick activity),0.0548,5.64,0.0273,0.0458,1639788,62
+FX spot: foreign_match,0.0627,6.47,0.0264,0.0186,1639788,62
+FX spot: own_match,-0.0073,-0.73,0.0615,0.905,1639788,62

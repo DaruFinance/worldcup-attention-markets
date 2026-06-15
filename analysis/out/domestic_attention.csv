@@ -1,0 +1,5 @@
+spec,term,coef,se,p,own_match_days
+own-team,foreign_match,-0.0363,0.0294,0.2195,55
+own-team,own_match,-0.0482,0.072,0.5043,55
+own-team x attention,own_match,-0.0036,0.1757,0.9837,55
+own-team x attention,own_otz,-0.0319,0.1252,0.7992,55

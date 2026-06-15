@@ -1,0 +1,5 @@
+test,coef,se,p,n
+crypto: match (avg attention),0.022,0.1609,0.8914,0
+crypto: match x attention(+1SD),-0.0383,0.0994,0.7002,0
+futures: match (avg attention),-0.0709,0.1303,0.5872,0
+futures: match x attention(+1SD),0.0677,0.0922,0.4636,0

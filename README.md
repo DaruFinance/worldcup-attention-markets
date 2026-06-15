@@ -11,8 +11,14 @@ panel is one-minute data on eleven core instruments over the 2018 and 2022 tourn
 the futures and daily arms reaching back to 2010 and 1998. The 2026 tournament is held out of
 every estimate and recorded live for an out-of-sample extension.
 
-This repository holds the analysis and data-build scripts only. It does not contain data,
-figures, tables, or the manuscript.
+This repository holds everything needed to reproduce the paper except the raw licensed
+market data: the full analysis and data-build code, every result CSV (`analysis/out/`), the
+publication figures and the manuscript (`paper/`), and all free / public-source / derived data
+(`data/`). The only series withheld are those licensed from paid vendors (AlgoSeek, and the
+TradingView/ICE index and currency exports), which cannot be redistributed. With those in
+hand the pipeline reproduces end to end; without them, every figure and table still
+regenerates from the committed result CSVs. See [`DATA.md`](DATA.md) for the full
+data-availability statement and what a non-licensee can and cannot reproduce.
 
 ## Layout
 
@@ -26,8 +32,11 @@ update_2026.py  one command to refresh the panel and the 2026 out-of-sample esti
 
 ## Data
 
-No data is committed. The market data spans licensed and free sources, so the repository
-documents how each series was obtained rather than redistributing it.
+All free, public-source, and derived data **is** committed under `data/` (the match spine and
+goal timestamps, Fjelstul/Elo/FIFA-ranking inputs, attention proxies, the ACWI/DXY controls,
+and every result in `analysis/out/`). The raw **licensed** market data is not, because the
+vendor licenses forbid redistribution; the table below marks each source. Set `WC_INDEX_DIR`
+to point the daily index and currency loaders at your own licensed exports.
 
 | Source | Series | Access |
 |---|---|---|

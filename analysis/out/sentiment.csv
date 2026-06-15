@@ -1,0 +1,31 @@
+sample,spec,window,outcome,term,coef_bps,se_bps,p,n_obs,n_win,n_loss,n_draw,n_dates,n_inst
+pooled_all,win_loss,post-match [whistle..+60m],r_post60_bps,win,-1.525,17.246,0.9301,99,57,44,18,53,14
+pooled_all,win_loss,post-match [whistle..+60m],r_post60_bps,loss,-3.828,14.526,0.7938,99,57,44,18,53,14
+pooled_all,win_loss,post-match [whistle..+60m],r_post60_bps,win_minus_loss,2.303,,,99,57,44,18,53,14
+pooled_all,win_loss_upset,post-match [whistle..+60m],r_post60_bps,win,0.105,17.569,0.9953,99,57,44,18,53,14
+pooled_all,win_loss_upset,post-match [whistle..+60m],r_post60_bps,loss,-17.356,18.509,0.3552,99,57,44,18,53,14
+pooled_all,win_loss_upset,post-match [whistle..+60m],r_post60_bps,upset_loss,18.646,13.741,0.184,99,57,44,18,53,14
+pooled_all,win_loss,post-match [+60..+120m],r_post120_bps,win,27.91,9.069,0.0045,82,48,39,13,48,14
+pooled_all,win_loss,post-match [+60..+120m],r_post120_bps,loss,15.96,8.512,0.0709,82,48,39,13,48,14
+pooled_all,win_loss,post-match [+60..+120m],r_post120_bps,win_minus_loss,11.949,,,82,48,39,13,48,14
+pooled_all,win_loss_upset,post-match [+60..+120m],r_post120_bps,win,26.594,9.147,0.0069,82,48,39,13,48,14
+pooled_all,win_loss_upset,post-match [+60..+120m],r_post120_bps,loss,19.511,11.255,0.0936,82,48,39,13,48,14
+pooled_all,win_loss_upset,post-match [+60..+120m],r_post120_bps,upset_loss,-5.85,10.727,0.5896,82,48,39,13,48,14
+pooled_all,win_loss,next session (close-to-close),r_next_bps,win,102.949,37.305,0.0072,269,139,94,48,94,14
+pooled_all,win_loss,next session (close-to-close),r_next_bps,loss,74.134,35.302,0.0388,269,139,94,48,94,14
+pooled_all,win_loss,next session (close-to-close),r_next_bps,win_minus_loss,28.814,,,269,139,94,48,94,14
+pooled_all,win_loss_upset,next session (close-to-close),r_next_bps,win,103.598,37.568,0.0072,269,139,94,48,94,14
+pooled_all,win_loss_upset,next session (close-to-close),r_next_bps,loss,112.748,67.574,0.0991,269,139,94,48,94,14
+pooled_all,win_loss_upset,next session (close-to-close),r_next_bps,upset_loss,-43.976,57.946,0.4501,269,139,94,48,94,14
+country_etf,win_loss,post-match [whistle..+60m],r_post60_bps,win,12.22,10.276,0.2685,22,24,24,5,38,9
+country_etf,win_loss_upset,post-match [whistle..+60m],r_post60_bps,win,15.127,14.277,0.3203,22,24,24,5,38,9
+country_etf,win_loss_upset,post-match [whistle..+60m],r_post60_bps,upset_loss,3.677,16.64,0.8307,22,24,24,5,38,9
+country_etf,win_loss,post-match [+60..+120m],r_post120_bps,win,4.256,7.074,0.5664,17,23,21,5,39,9
+country_etf,win_loss_upset,post-match [+60..+120m],r_post120_bps,win,22.284,15.88,0.2033,17,23,21,5,39,9
+country_etf,win_loss_upset,post-match [+60..+120m],r_post120_bps,upset_loss,19.601,12.89,0.1722,17,23,21,5,39,9
+country_etf,win_loss,next session (close-to-close),r_next_bps,win,121.369,50.096,0.0191,119,84,55,24,94,9
+country_etf,win_loss,next session (close-to-close),r_next_bps,loss,77.315,51.845,0.1423,119,84,55,24,94,9
+country_etf,win_loss,next session (close-to-close),r_next_bps,win_minus_loss,44.054,,,119,84,55,24,94,9
+country_etf,win_loss_upset,next session (close-to-close),r_next_bps,win,123.181,50.297,0.0179,119,84,55,24,94,9
+country_etf,win_loss_upset,next session (close-to-close),r_next_bps,loss,128.302,82.763,0.1275,119,84,55,24,94,9
+country_etf,win_loss_upset,next session (close-to-close),r_next_bps,upset_loss,-56.923,65.524,0.3892,119,84,55,24,94,9

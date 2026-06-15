@@ -1,0 +1,3 @@
+measure,mean_effect,pct_sig_5
+naive mean-pairwise-corr (match−control),-0.0519,100.0
+composition-controlled (+ instrument count),-0.0014,5.2

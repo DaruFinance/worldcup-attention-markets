@@ -1,0 +1,10 @@
+test,outcome,coef,se,p,n,usa_own_days,etf_own_days
+US cash 4T: foreign_match,lvol,0.0228,0.0506,0.6523,170145,6,55
+US cash 4T: own_match,lvol,-1.1128,0.7395,0.1343,170145,6,55
+US cash 4T: foreign_match,ltrades,0.0479,0.0433,0.2707,170145,6,55
+US cash 4T: own_match,ltrades,-0.8012,0.5465,0.1446,170145,6,55
+US cash 4T PLACEBO +1d,ltrades,-0.0209,0.1369,0.8789,170145,6,55
+country ETF 4T: foreign_match,lvol,-0.0379,0.0287,0.1891,447553,6,55
+country ETF 4T: own_match,lvol,-0.053,0.0749,0.4798,447553,6,55
+country ETF 4T: foreign_match,ltrades,-0.0254,0.0225,0.2604,447553,6,55
+country ETF 4T: own_match,ltrades,-0.0289,0.0458,0.5299,447553,6,55

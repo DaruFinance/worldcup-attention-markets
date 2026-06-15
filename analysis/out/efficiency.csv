@@ -1,0 +1,14 @@
+measure,units,match_blocks,ctrl_blocks,mean_match,mean_ctrl,coef,se,ci_lo,ci_hi,p,n_blocks
+VR(5) equity+futures pooled (level),VR,344,789,0.847119,0.842875,-0.006551,0.030403,-0.06614,0.053039,0.8297,1133
+VR(5) equity+futures |VR-1| (inefficiency),|VR-1|,344,789,0.317892,0.281849,0.039276,0.018869,0.002292,0.07626,0.0389,1133
+VR(5) crypto pooled (level),VR,384,1408,0.877605,0.95813,-0.0714,0.035719,-0.14141,-0.00139,0.0475,1792
+VR(5) crypto |VR-1| (inefficiency),|VR-1|,384,1408,0.282275,0.269067,0.005872,0.0218,-0.036856,0.0486,0.788,1792
+SPY-ES return-spread SD per block,sd(log ret diff),167,384,0.000208,0.000158,1.8e-05,2.8e-05,-3.7e-05,7.3e-05,0.5245,551
+SPY-ES |return-spread| mean per block,mean|ret diff|,167,384,0.0001,9e-05,4e-06,5e-06,-6e-06,1.4e-05,0.4247,551
+"crypto spot-perp basis LEVEL (bps), 2022",bps log(perp/spot),128,480,-4.700207,-4.726125,0.045457,0.266735,-0.477344,0.568258,0.8652,608
+"crypto spot-perp basis VOL (bps), 2022",bps sd,128,480,0.893896,1.079303,-0.3072,0.262194,-0.821101,0.206701,0.2453,608
+lead-lag ES->SPY (fut leads if >0),corr diff,166,380,0.001494,-0.001153,0.003041,0.003375,-0.003573,0.009656,0.3688,546
+"lead-lag crypto perp->spot (perp leads if >0), 2022",corr diff,128,480,0.001655,-0.0003,0.002161,0.001664,-0.001101,0.005423,0.1983,608
+"|CAR| equity+fut (market-adjusted, abs)",|cum abn ret|,804,1853,0.000972,0.000894,5.1e-05,6.9e-05,-8.4e-05,0.000185,0.4616,2657
+"CAR equity+fut (signed, ~0 by constr.)",cum abn ret,804,1853,2e-06,1e-06,1e-06,1e-06,-1e-06,4e-06,0.3543,2657
+"|CAR| crypto (market-adjusted, abs)",|cum abn ret|,384,1408,0.001493,0.001643,-0.000208,0.000223,-0.000644,0.000229,0.3529,1792

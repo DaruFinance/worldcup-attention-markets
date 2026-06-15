@@ -1,0 +1,10 @@
+spec,term,bps,se_bps,p,n
+pooled all (20 idx),postL,-4.3,9.6,0.6554,129277
+pooled all (20 idx),postW,-0.3,8.7,0.9759,129277
+pooled all (20 idx),postD,-8.6,10.1,0.3974,129277
+pooled all (20 idx),season_nonpost,-5.1,4.2,0.2205,129277
+developed only,postL,-14.7,10.6,0.1662,99544
+developed only,postW,-9.6,7.2,0.1838,99544
+developed only,postD,-8.5,10.1,0.399,99544
+developed only,season_nonpost,0.7,4.1,0.8721,99544
+placebo alone,season_nonpost,-3.8,3.7,0.2972,129277

@@ -1,15 +1,12 @@
-# Data is not redistributed (see README "Data" section). Keep the tree, drop the contents.
-data/
-analysis/out/
-figures/*.pdf
-figures/*.png
-
-# Python
+# --- Raw licensed / paid data: NEVER redistribute (license-restricted) ---
+data/market/            # AlgoSeek 1-min bars/TAQ + TradingView/ICE index & FX series
+data/options_probe/     # AlgoSeek OPRA options TAQ + greeks
+data/crypto_live/*.jsonl # live order-book capture
+# --- build artifacts ---
 __pycache__/
 *.pyc
-.venv/
-venv/
-.ipynb_checkpoints/
-
-# OS
-.DS_Store
+*.aux
+*.log
+*.out
+*.toc
+logs/

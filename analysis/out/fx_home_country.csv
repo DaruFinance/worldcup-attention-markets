@@ -1,0 +1,23 @@
+currency,home,outcome,coef,pct,se,p,own_match_days,own_minutes,note
+USDBRL,Brazil,activity,0.0067,0.67,0.047,0.887,4,76,UNDERPOWERED
+USDBRL,Brazil,volatility(hi/lo),-0.0,-0.0,0.0,0.7411,4,76,UNDERPOWERED
+USDMXN,Mexico,activity,-0.2389,-21.25,0.1392,0.0877,10,1035,
+USDMXN,Mexico,volatility(hi/lo),0.0,0.0,0.0,0.9624,10,1035,
+USDJPY,Japan,activity,0.1244,13.25,0.0546,0.0239,11,1154,
+USDJPY,Japan,volatility(hi/lo),0.0,0.0,0.0,0.2049,11,1154,
+AUDUSD,Australia,activity,0.0299,3.04,0.1329,0.8222,7,733,UNDERPOWERED
+AUDUSD,Australia,volatility(hi/lo),0.0,0.0,0.0,0.3335,7,733,UNDERPOWERED
+USDCAD,Canada,activity,0.6493,91.43,0.2484,0.0096,2,210,UNDERPOWERED
+USDCAD,Canada,volatility(hi/lo),0.0001,0.01,0.0,0.0,2,210,UNDERPOWERED
+USDCHF,Switzerland,activity,0.0359,3.66,0.074,0.6281,13,1365,
+USDCHF,Switzerland,volatility(hi/lo),-0.0,-0.0,0.0,0.619,13,1365,
+GBPUSD,England,activity,0.0504,5.16,0.1613,0.7552,11,1155,
+GBPUSD,England,volatility(hi/lo),0.0,0.0,0.0,0.6533,11,1155,
+EURUSD,euro-area,activity,-0.0493,-4.81,0.0426,0.2491,61,9026,
+EURUSD,euro-area,volatility(hi/lo),0.0,0.0,0.0,0.0427,61,9026,
+6J,Japan (CME fut),activity,0.1403,15.06,0.1103,0.2048,11,1034,
+6J,Japan (CME fut),volatility(hi/lo),-0.0,-0.0,0.0,0.7015,11,1034,
+6B,England (CME fut),activity,-0.3568,-30.01,0.1137,0.002,10,989,
+6B,England (CME fut),volatility(hi/lo),-0.0,-0.0,0.0,0.079,10,989,
+6E,euro-area (CME fut),activity,0.1196,12.71,0.0578,0.0397,60,8376,
+6E,euro-area (CME fut),volatility(hi/lo),0.0,0.0,0.0,0.0353,60,8376,

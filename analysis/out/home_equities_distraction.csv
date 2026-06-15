@@ -1,0 +1,4 @@
+kind,outcome,coef,pct,se,p,n,play_days
+equity,log volume,-0.0056,-0.56,0.0547,0.919,18060,63
+equity,volatility(hi/lo),-0.0006,-0.06,0.0006,0.2826,18912,63
+fx,FX volatility(hi/lo),0.0002,0.02,0.0007,0.7879,4389,56

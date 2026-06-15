@@ -1,0 +1,3 @@
+outcome,pct,se,p,n
+match-day volatility (hi/lo),-0.02,0.0004,0.5755,129277
+match-day VOLUME (4 idx w/ vol),14.03,0.088,0.1354,21798

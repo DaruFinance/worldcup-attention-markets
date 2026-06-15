@@ -1,0 +1,159 @@
+test,p,q_bh
+single-market domestic: 6B / 6B x domestic / ltrades,0.0025559897885065,0.25590465289073056
+sentiment: win_loss / post-match [+60..+120m] / r_post120_bps / win,0.0045,0.25590465289073056
+comovement: all_avail (raw - composition-confounded),0.005,0.25590465289073056
+sentiment: win_loss / next session (close-to-close) / r_next_bps / win,0.0072,0.25590465289073056
+home-FX (per-ccy): USDCAD/Canada/activity,0.0096,0.25590465289073056
+single-market domestic: 6B / 6B x domestic / lvol,0.0097178982110404,0.25590465289073056
+fx-spot: FX spot: foreign_match,0.0186,0.37276207061151395
+sentiment: win_loss / next session (close-to-close) / r_next_bps / win,0.0191,0.37276207061151395
+single-market domestic: NQ / NQ x domestic / ltrades,0.0212332825031875,0.37276207061151395
+home-FX (per-ccy): USDJPY/Japan/activity,0.0239,0.37762
+liquidity: country_etf / log depth,0.0321,0.395
+single-market domestic: NQ / NQ x domestic / lvol,0.0371511338218988,0.395
+sentiment: win_loss / next session (close-to-close) / r_next_bps / loss,0.0388,0.395
+efficiency: ,0.0389,0.395
+single-market domestic: 6B / 6B x domestic / absret,0.0426814828606245,0.395
+fx-spot: FX spot: during-match (tick activity),0.0458,0.395
+options: intraday lvol 2018-only / log(option volume),0.04582,0.395
+home-equity loser (1998-22): size: postL x emerging/postL_emerg,0.0473,0.395
+efficiency: ,0.0475,0.395
+"options: intraday (1min-taq, 2014/18/22) / put/call vol ratio",0.05392,0.41715522122443377
+single-market domestic: 6J / 6J match / lvol,0.0554446813019817,0.41715522122443377
+intensity: absret / match,0.0696,0.46812329329245844
+sentiment: win_loss / post-match [+60..+120m] / r_post120_bps / loss,0.0709,0.46812329329245844
+home-equity loser: all matches/postL,0.0754,0.46812329329245844
+liquidity-extra: ALL / log depth,0.0769,0.46812329329245844
+single-market domestic: 6E / 6E x domestic / lvol,0.0787511316140581,0.46812329329245844
+single-market domestic: 6J / 6J match / ltrades,0.0799957526512429,0.46812329329245844
+home-FX (per-ccy): USDMXN/Mexico/activity,0.0877,0.49487857142857145
+goal-window: signed_imb / g15,0.0915827383797869,0.49670314479437866
+goal-window: lvol / g15,0.0950122861443369,0.49670314479437866
+own-team: fx_only / lvol / own_match,0.1019847914388827,0.49670314479437866
+goal-window: ltrades / g5,0.1022948214239387,0.49670314479437866
+single-market domestic: 6B / 6B match / lvol,0.1037417960646487,0.49670314479437866
+liquidity: commodity_fut / log depth,0.1099,0.5107117647058823
+activity: fx_fut / lvol,0.1158122592900972,0.51666
+goal-window: lvol / g5,0.1195730081705539,0.51666
+activity: commodity_fut / absret,0.1282643697299215,0.51666
+single-market domestic: 6B / 6B match / ltrades,0.1297013398729736,0.51666
+home-FX loser (2002-22): pooled all (16 ccy)/postL,0.1342,0.51666
+sentiment: win_loss / next session (close-to-close) / r_next_bps / loss,0.1423,0.51666
+activity: fx_fut / ltrades,0.1448938857829032,0.51666
+own-team: fx_only / ltrades / own_match,0.1463286425564558,0.51666
+single-market domestic: 6E / 6E x domestic / ltrades,0.1463291289917447,0.51666
+activity: commodity_fut / hlrange,0.1481577853580886,0.51666
+"options: intraday (1min-taq, 2014/18/22) / log(option volume)",0.15172,0.51666
+single-market domestic: 6E / 6E x domestic / absret,0.1556661762910312,0.51666
+stakes: futures: x do-or-die,0.1585,0.51666
+goal-window: ltrades / g15,0.161274461630265,0.51666
+own-team: all_mapped / lvol / own_match,0.1613023831694029,0.51666
+liquidity: equity_cash / log depth,0.1635,0.51666
+"options: day-level (daily-greeks, 2018/22) / 25d skew (put-call) [dummy]",0.17263,0.5348145098039215
+own-team: all_mapped / ltrades / own_match,0.197247810403857,0.5911584905660378
+efficiency: ,0.1983,0.5911584905660378
+domestic-attention: own-team / foreign_match,0.2195,0.6422407407407407
+efficiency: ,0.2453,0.702817857142857
+home-FX (per-ccy): EURUSD/euro-area/activity,0.2491,0.702817857142857
+single-market domestic: ES / ES x domestic / ltrades,0.2656717437405458,0.7314310344827587
+sentiment: win_loss / post-match [whistle..+60m] / r_post60_bps / win,0.2685,0.7314310344827587
+home-equity loser (1998-22): size: postL x emerging/postL,0.2773,0.7319803278688525
+options: intraday lvol 2022-only / log(option volume),0.27845,0.7319803278688525
+home-equity distraction: equity/volatility(hi/lo),0.2826,0.7319803278688525
+activity: commodity_fut / lvol,0.2956929996735644,0.747615873015873
+home-equity size: own_emerg,0.2981,0.747615873015873
+liquidity: commodity_fut / log rel-spread (bps),0.3206,0.7882984615384615
+intensity: ltrades / x closeness(+1SD),0.3243,0.7882984615384615
+intensity: lvol / x closeness(+1SD),0.3503,0.8232264705882353
+efficiency: ,0.3529,0.8232264705882353
+efficiency: ,0.3543,0.8232264705882353
+efficiency: ,0.3688,0.8390449315068493
+home-FX loser (2002-22): size: postL x emerging/postL,0.3741,0.8390449315068493
+activity: crypto_perp / absret,0.3772421785576827,0.8390449315068493
+activity: commodity_fut / ltrades,0.3834709360972965,0.8390449315068493
+"options: day-level (daily-greeks, 2018/22) / ATM IV [dummy]",0.38766,0.8390449315068493
+own-team: fx_only / absret / own_match,0.4126716442668265,0.8439112616702397
+own-team: 2022_only / absret / own_match,0.4174421758925029,0.8439112616702397
+goal-window: absret / g15,0.4225518962660801,0.8439112616702397
+efficiency: ,0.4247,0.8439112616702397
+single-market domestic: ES / ES x domestic / lvol,0.4268775090675616,0.8439112616702397
+single-market domestic: ES / ES match / lvol,0.4351369702176559,0.8439112616702397
+activity: fx_fut / hlrange,0.4543848965846897,0.8439112616702397
+activity: crypto_spot / lvol,0.4553824732513158,0.8439112616702397
+goal-window: absret / g5,0.4564998801199413,0.8439112616702397
+efficiency: ,0.4616,0.8439112616702397
+liquidity: equity_cash / log rel-spread (bps),0.463,0.8439112616702397
+attention-scaling: futures: match x attention(+1SD),0.4636,0.8439112616702397
+own-team: 2022_only / lvol / own_match,0.4688543938520608,0.8439112616702397
+own-team: all_mapped / absret / own_match,0.4695510114590839,0.8439112616702397
+single-market domestic: 6J / 6J x domestic / ltrades,0.4902917139839724,0.8439112616702397
+intensity: absret / x extra-time/penalties,0.5012,0.8439112616702397
+domestic-attention: own-team / own_match,0.5043,0.8439112616702397
+stakes: futures: match,0.5089,0.8439112616702397
+activity: crypto_perp / hlrange,0.5131891089164093,0.8439112616702397
+activity: crypto_perp / ltrades,0.5188039332213337,0.8439112616702397
+liquidity: country_etf / log rel-spread (bps),0.5214,0.8439112616702397
+efficiency: ,0.5245,0.8439112616702397
+activity: crypto_spot / hlrange,0.5296000684212927,0.8439112616702397
+single-market domestic: 6E / 6E match / absret,0.5302360749654558,0.8439112616702397
+own-team: 2022_only / ltrades / own_match,0.5393782268741223,0.8439112616702397
+comovement: crypto_only (composition-free),0.5406,0.8439112616702397
+goal-window: signed_imb / g5,0.5443423680696409,0.8439112616702397
+"options: day-level (daily-greeks, 2018/22) / 25d put IV [dummy]",0.54663,0.8439112616702397
+single-market domestic: 6J / 6J match / absret,0.5590891013673125,0.8439112616702397
+sentiment: win_loss / post-match [+60..+120m] / r_post120_bps / win,0.5664,0.8439112616702397
+liquidity: fx_fut / log rel-spread (bps),0.5673,0.8439112616702397
+activity: crypto_perp / lvol,0.5694529604209873,0.8439112616702397
+liquidity: fx_fut / log depth,0.5715,0.8439112616702397
+activity: crypto_spot / ltrades,0.5715095253083269,0.8439112616702397
+single-market domestic: 6J / 6J x domestic / lvol,0.5801479269246166,0.8487349301304576
+attention-scaling: futures: match (avg attention),0.5872,0.8511706422018349
+single-market domestic: ES / ES match / ltrades,0.5980297519348405,0.8516482142857144
+single-market domestic: ES / ES match / absret,0.6008426074689783,0.8516482142857144
+stakes: crypto: match,0.6037,0.8516482142857144
+home-FX (per-ccy): USDCHF/Switzerland/activity,0.6281,0.8579690484338897
+comovement: all_avail fully-open 11-inst (composition-free),0.6429,0.8579690484338897
+single-market domestic: 6J / 6J x domestic / absret,0.6449700591095184,0.8579690484338897
+liquidity: equity_fut / log depth,0.6531,0.8579690484338897
+liquidity-extra: ALL / log rel-spread (bps),0.6555,0.8579690484338897
+intensity: lvol / x extra-time/penalties,0.657,0.8579690484338897
+activity: equity_fut / absret,0.6684401836172864,0.8579690484338897
+activity: equity_fut / lvol,0.6705932744421244,0.8579690484338897
+intensity: lvol / match,0.6708,0.8579690484338897
+single-market domestic: 6B / 6B match / absret,0.6722512166342023,0.8579690484338897
+activity: crypto_spot / absret,0.6765729632549697,0.8579690484338897
+activity: fx_fut / absret,0.6777602929645976,0.8579690484338897
+activity: equity_fut / hlrange,0.6787729813559253,0.8579690484338897
+attention-scaling: crypto: match x attention(+1SD),0.7002,0.8753448818897638
+intensity: absret / x closeness(+1SD),0.7036,0.8753448818897638
+single-market domestic: NQ / NQ match / absret,0.7251334537116003,0.8950866069252567
+intensity: ltrades / match,0.7328,0.897537984496124
+home-FX (per-ccy): GBPUSD/England/activity,0.7552,0.9178584615384615
+efficiency: ,0.788,0.93536
+single-market domestic: NQ / NQ x domestic / absret,0.7919127949673073,0.93536
+intensity: ltrades / x extra-time/penalties,0.7934,0.93536
+sentiment: win_loss / post-match [whistle..+60m] / r_post60_bps / loss,0.7938,0.93536
+domestic-attention: own-team x attention / own_otz,0.7992,0.93536
+home-FX (per-ccy): AUDUSD/Australia/activity,0.8222,0.9499463768115942
+home-FX loser (2002-22): size: postL x emerging/postL_emerg,0.8239,0.9499463768115942
+efficiency: ,0.8297,0.9499463768115942
+activity: equity_fut / ltrades,0.8491036704789623,0.9577010438330307
+stakes: crypto: x do-or-die,0.8507,0.9577010438330307
+single-market domestic: NQ / NQ match / lvol,0.8546572606358058,0.9577010438330307
+efficiency: ,0.8652,0.9626873239436619
+single-market domestic: 6E / 6E match / ltrades,0.8837636398490991,0.9627926174496644
+"options: intraday (1min-taq, 2014/18/22) / log(put/call ratio)",0.88402,0.9627926174496644
+home-FX (per-ccy): USDBRL/Brazil/activity,0.887,0.9627926174496644
+attention-scaling: crypto: match (avg attention),0.8914,0.9627926174496644
+fx-spot: FX spot: own_match,0.905,0.9627926174496644
+options: intraday lvol 2014-only / log(option volume),0.90771,0.9627926174496644
+"options: day-level (daily-greeks, 2018/22) / 25d call IV [dummy]",0.90795,0.9627926174496644
+home-equity distraction: equity/log volume,0.919,0.9668144736842106
+comovement: all_avail +ninst control,0.9282,0.9668144736842106
+sentiment: win_loss / post-match [whistle..+60m] / r_post60_bps / win,0.9301,0.9668144736842106
+home-equity loser (1998-22): pooled all (20 idx)/postL,0.9591,0.9837
+single-market domestic: 6E / 6E match / lvol,0.968933450199288,0.9837
+single-market domestic: NQ / NQ match / ltrades,0.971653997442405,0.9837
+liquidity: equity_fut / log rel-spread (bps),0.9738,0.9837
+single-market domestic: ES / ES x domestic / absret,0.9808882256556424,0.9837
+domestic-attention: own-team x attention / own_match,0.9837,0.9837

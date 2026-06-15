@@ -1,0 +1,13 @@
+test,outcome,coef,se,p,n,us_rth_match_days,usa_match_days,own_country_days
+US cash RTH: any match,lvol,-0.0587,0.0441,0.1865,106127,32,3,28
+US cash RTH: any match,ltrades,-0.0249,0.0398,0.5334,106127,32,3,28
+US cash RTH: any match,absret,0.0,0.0,0.3061,106127,32,3,28
+US cash RTH ltrades 2018-only,ltrades,-0.0431,0.0439,0.3317,47745,32,3,28
+US cash RTH ltrades 2022-only,ltrades,0.0662,0.0744,0.3795,44342,32,3,28
+US cash RTH PLACEBO +1d (same clock),ltrades,-0.0271,0.0431,0.53,106127,32,3,28
+US cash RTH PLACEBO +1d (same clock),lvol,-0.0648,0.0496,0.1948,106127,32,3,28
+US cash ALL-SESSION ltrades (artifact),ltrades,0.1918,0.0834,0.0235,220532,32,3,28
+country ETF RTH: foreign_match,lvol,-0.0214,0.0445,0.632,276798,32,3,28
+country ETF RTH: own_match,lvol,-0.0319,0.098,0.7451,276798,32,3,28
+country ETF RTH: foreign_match,ltrades,-0.0207,0.0362,0.5684,276798,32,3,28
+country ETF RTH: own_match,ltrades,-0.0096,0.0646,0.882,276798,32,3,28

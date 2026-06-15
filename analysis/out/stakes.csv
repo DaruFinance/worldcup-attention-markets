@@ -1,0 +1,5 @@
+term,coef,pct,se,p
+futures: match,-0.043,-4.2,0.065,0.5089
+futures: x do-or-die,0.1355,14.5,0.0958,0.1585
+crypto: match,-0.0235,-2.3,0.0451,0.6037
+crypto: x do-or-die,-0.0176,-1.7,0.0933,0.8507

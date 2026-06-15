@@ -1,0 +1,5 @@
+cell,instrument,own_match_days,effect_pct,t,p_asymptotic,p_wildboot
+England (sterling),6B,11,-23.5,-2.48,0.0159,0.0314
+euro-area (euro),6E,59,10.6,1.74,0.0891,0.0882
+USA (Nasdaq),NQ,8,16.0,0.86,0.3982,0.4026
+USA (S&P),ES,8,-1.1,-0.06,0.95,0.9512
