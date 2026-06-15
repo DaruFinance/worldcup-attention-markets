@@ -1,0 +1,5 @@
+cell,clusters,power_-30%_phi100,recover_-30%_phi100,power_-30%_phi25,recover_-30%_phi25,power_-30%_phi10,recover_-30%_phi10,power_-45%_phi100,recover_-45%_phi100,power_-45%_phi25,recover_-45%_phi25,power_-45%_phi10,recover_-45%_phi10
+Crypto spot (Match),48,1.0,-30.0,1.0,-30.8,1.0,-31.9,1.0,-45.0,1.0,-46.2,1.0,-47.3
+Equity-index futures (Match),31,1.0,-30.0,1.0,-31.6,1.0,-32.5,1.0,-45.1,1.0,-46.9,1.0,-48.3
+FX futures (Match),31,1.0,-30.0,1.0,-30.7,1.0,-32.5,1.0,-45.0,1.0,-46.1,1.0,-48.4
+"Own-team futures, pooled",28,1.0,-30.1,1.0,-30.4,1.0,-30.5,1.0,-45.1,1.0,-45.3,1.0,-45.6

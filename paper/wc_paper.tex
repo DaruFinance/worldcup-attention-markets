@@ -105,7 +105,7 @@ Cash equities & SPY, QQQ, IWM, 9 country ETFs & exchange-hours, the literature's
 \end{tabular}
 \end{table}
 
-\paragraph{Home markets.} The local-channel arm (Section~\ref{sec:local}) adds three daily panels, the finest resolution freely available for foreign venues. Home equities for 26 nations (main index plus top-capitalization names, about 100 series, 2009--2023) come from the Yahoo Finance daily feed. Twenty national stock indices with deep history (1998--2022) and sixteen home currencies (each gated at its float or redenomination date: 1998 for the five developed units and South Korea, 2000--2007 for the rest, 2015 for the rouble) come from TradingView/ICE daily exports. Argentina's 1991--2001 dollar peg and the pre-2005 Turkish lira are excluded as untestable. Index returns are adjusted by the MSCI world return and currency returns are normalized to the dollar value of the local unit, so a negative return denotes home-currency depreciation.
+\paragraph{Home markets.} The local-channel arm (Section~\ref{sec:local}) adds three daily panels, the finest resolution freely available for foreign venues. Home equities for 26 nations (main index plus top-capitalization names, about 100 series, 2009--2023) come from the Yahoo Finance daily feed. The top-capitalization constituents are chosen on current market cap rather than point-in-time membership, so the single-name cross-section is mildly survivorship-tilted; because the home-equity result is a match-day activity null and survivorship bears no direction on whether a fixture depresses trading, the tilt does not affect the bound, but we note it. Twenty national stock indices with deep history (1998--2022) and sixteen home currencies (each gated at its float or redenomination date: 1998 for the five developed units and South Korea, 2000--2007 for the rest, 2015 for the rouble) come from TradingView/ICE daily exports. Argentina's 1991--2001 dollar peg and the pre-2005 Turkish lira are excluded as untestable. Index returns are adjusted by the MSCI world return and currency returns are normalized to the dollar value of the local unit, so a negative return denotes home-currency depreciation.
 
 \paragraph{Schedule, attention, controls.} Match results, kickoff times, and eliminations back to 1998 come from the Fjelstul World Cup database, with goal-level timing for 2010--2022. Attention is the daily Wikipedia tournament-article pageview series, with Google Trends and GDELT news volume as cross-checks. Estimation uses the completed 2010--2022 tournaments; the ongoing 2026 World Cup is excluded, though a live collector records it for a later out-of-sample extension.
 
@@ -252,12 +252,19 @@ recover an injected $-30\%$ with power $1.00$ and correct $5\%$ size, and recove
 so their during-match nulls are informative, not dead tests. The single-market sterling design, on six
 clusters, is the exception that proves the rule: its size is inflated to $0.11$ and its power against $-30\%$
 falls to $0.75$, the same few-cluster fragility the bootstrap flags, which is why such cells are not read as
-findings. One caveat scopes the recovery rates: the injection is a homogeneous multiplicative shift applied
-to every match-minute, so these figures bound the design's power against a \emph{uniform} during-match
-effect of the literature's size. An effect of the same average magnitude but concentrated in a minority of
-matches would be recovered with less power, so the rates here are an upper bound; the well-powered cells'
-nulls remain informative against the uniform effect the prior literature describes, which is the relevant
-alternative.
+findings. One caveat scopes the recovery rates: Table~\ref{tab:inject} injects a homogeneous shift on every
+match-minute, so it speaks to a \emph{uniform} effect, whereas the Ehrmann--Jansen effect is largest ``at the
+most attentive moments.'' We therefore re-run the injection with the same \emph{average} decline placed on
+only a fraction $\phi$ of each match-day's in-play minutes, at per-minute magnitude $\delta/\phi$, so the
+concentration leaves more within-cluster residual and inflates the date-clustered standard error.
+Concentrating a $-30\%$ average into a quarter ($\phi=0.25$) and then a tenth ($\phi=0.10$) of the window
+leaves the well-powered cells at power $1.00$ with the recovered coefficient still at the injected average
+(at $\phi=0.10$: crypto spot $-31.9\%$, equity futures $-32.5\%$, FX futures $-32.5\%$, pooled own-team
+$-30.5\%$), and the $-45\%$ average behaves identically. At these cluster counts the detection headroom is
+large enough that concentration does not degrade power, so the nulls are informative against a concentrated
+literature-magnitude effect, not only a uniform one. The check holds the \emph{average} fixed; an effect
+whose per-minute size matches the literature but whose \emph{average} over the in-play window is single-digit
+is governed by each cell's minimum detectable effect rather than by this control.
 
 \begin{table}[h]\centering\small\setlength{\tabcolsep}{7pt}
 \caption{Positive-control injection. Empirical rejection rate at the $5\%$ level when a known during-match
@@ -331,7 +338,8 @@ artifact and its Monte Carlo (\path{comovement.py}, \path{artifact_montecarlo.py
 loser-effect arms (\path{home_equities.py}, \path{equities_extended.py}, \path{fx_exotic_extended.py}),
 the wild-cluster bootstrap on the single-market and pooled own-team cells (\path{wild_bootstrap.py},
 \path{pooled_bootstrap.py}), the positive-control injection of Section~\ref{sec:inject}
-(\path{injection_power.py}, emitting \path{injection_power.csv}), the loser-effect calendar placebo of
+(\path{injection_power.py} for the uniform shift and \path{injection_concentrated.py} for the
+concentrated-shock variant, emitting \path{injection_power.csv} and \path{injection_concentrated.csv}), the loser-effect calendar placebo of
 Section~\ref{sec:loser} (\path{loser_calendar_placebo.py}), the goal-window timing robustness
 (\path{goal_timing.py}), the §\ref{sec:attention} intraday-attention
 reconstruction of three matches across both tournaments (\path{attention_final.py}, emitting
