@@ -11,14 +11,13 @@ panel is one-minute data on eleven core instruments over the 2018 and 2022 tourn
 the futures and daily arms reaching back to 2010 and 1998. The 2026 tournament is held out of
 every estimate and recorded live for an out-of-sample extension.
 
-This repository holds everything needed to reproduce the paper except the raw licensed
-market data: the full analysis and data-build code, every result CSV (`analysis/out/`), the
-figure-rendering scripts, and all free / public-source / derived data
-(`data/`). The only series withheld are those licensed from paid vendors (AlgoSeek, and the
-TradingView/ICE index and currency exports), which cannot be redistributed. With those in
-hand the pipeline reproduces end to end; without them, every figure and table still
-regenerates from the committed result CSVs. See [`DATA.md`](DATA.md) for the full
-data-availability statement and what a non-licensee can and cannot reproduce.
+This repository ships **code and results, not data**: the full analysis and data-build
+pipeline, every result table the figures are drawn from (`analysis/out/*.csv`), and
+`synthetic_sample.py`, which builds a small synthetic panel so the cross-market scripts run
+end to end. No market data is distributed — the real inputs are rebuilt from the sources in
+[`DATA.md`](DATA.md) (public and free except the licensed AlgoSeek and TradingView/ICE
+series). Because the result tables are committed, every figure regenerates with no data;
+reproducing the underlying estimates means building the inputs first.
 
 ## Layout
 
@@ -27,16 +26,18 @@ ingest/        pull and build the match spine, market data, attention proxies, a
 analysis/      estimate every channel; each script writes one CSV to analysis/out/
 collectors/    live recorder for the 2026 crypto microstructure (order book, OI, funding, liquidations)
 figures/       render the publication figures from the analysis/out CSVs
+synthetic_sample.py  build a synthetic panel so the cross-market scripts run with no data
 update_2026.py  one command to refresh the panel and the 2026 out-of-sample estimates
 ```
 
 ## Data
 
-All free, public-source, and derived data **is** committed under `data/` (the match spine and
-goal timestamps, Fjelstul/Elo/FIFA-ranking inputs, attention proxies, the ACWI/DXY controls,
-and every result in `analysis/out/`). The raw **licensed** market data is not, because the
-vendor licenses forbid redistribution; the table below marks each source. Set `WC_INDEX_DIR`
-to point the daily index and currency loaders at your own licensed exports.
+No data is committed. The scripts read from a git-ignored `data/` tree you build from the
+sources in the table below — every source is public or free except the licensed AlgoSeek and
+TradingView/ICE series. To run the pipeline with no data, `python synthetic_sample.py` writes
+a schema-correct synthetic panel (zero effect by construction, results carry no meaning); the
+committed `analysis/out/` result tables let the figures regenerate without any panel. Set
+`WC_INDEX_DIR` to point the daily index and currency loaders at your own licensed exports.
 
 | Source | Series | Access |
 |---|---|---|

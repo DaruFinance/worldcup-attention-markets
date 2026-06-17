@@ -1,9 +1,7 @@
-# Licensed market data — not redistributable (see DATA.md)
-data/market/
-data/options_probe/
-
-# Live capture and local runtime artifacts
-data/crypto_live/
+# No market data is distributed with this repository (see DATA.md). The real panels are
+# built from the documented sources; synthetic_sample.py provides a runnable demo.
+data/
+*.parquet
 
 # Manuscript (published separately; not part of this code repository)
 paper/
