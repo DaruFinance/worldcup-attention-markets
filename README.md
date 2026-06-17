@@ -1,7 +1,7 @@
 # World Cup attention shocks across financial markets
 
-Code to reproduce the empirical results in *When the World Watches Football: Bounds on the
-Aggregate Attention Channel and the Limits of the World Cup Distraction Effect*.
+Code to reproduce the empirical results in *The Reach of the World Cup Distraction Effect:
+Evidence from Global Trading Venues*.
 
 The study asks whether the trading slowdown that Ehrmann and Jansen document on national
 stock exchanges during a country's World Cup matches shows up in markets built differently:
@@ -13,7 +13,7 @@ every estimate and recorded live for an out-of-sample extension.
 
 This repository holds everything needed to reproduce the paper except the raw licensed
 market data: the full analysis and data-build code, every result CSV (`analysis/out/`), the
-publication figures and the manuscript (`paper/`), and all free / public-source / derived data
+figure-rendering scripts, and all free / public-source / derived data
 (`data/`). The only series withheld are those licensed from paid vendors (AlgoSeek, and the
 TradingView/ICE index and currency exports), which cannot be redistributed. With those in
 hand the pipeline reproduces end to end; without them, every figure and table still

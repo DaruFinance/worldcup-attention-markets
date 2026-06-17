@@ -1,8 +1,14 @@
-# --- Raw licensed / paid data: NEVER redistribute (license-restricted) ---
-data/market/            # AlgoSeek 1-min bars/TAQ + TradingView/ICE index & FX series
-data/options_probe/     # AlgoSeek OPRA options TAQ + greeks
-data/crypto_live/*.jsonl # live order-book capture
-# --- build artifacts ---
+# Licensed market data — not redistributable (see DATA.md)
+data/market/
+data/options_probe/
+
+# Live capture and local runtime artifacts
+data/crypto_live/
+
+# Manuscript (published separately; not part of this code repository)
+paper/
+
+# Build artifacts
 __pycache__/
 *.pyc
 *.aux

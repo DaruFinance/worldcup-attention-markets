@@ -3,7 +3,7 @@
 Wild-cluster restricted bootstrap (Cameron-Gelbach-Miller) for the own-team cells, to replace the asserted
 "few-cluster cells over-reject" with an exact small-sample p-value. For each cell we residualize the
 outcome and the own-team indicator on the fixed effects and the foreign-match control (Frisch-Waugh), then
-impose the null and resample cluster-wise Rademacher signs over match-days (B=9999). The prediction: the
+impose the null and resample cluster-wise Rademacher signs over match-days (B=4999). The prediction: the
 few-cluster mirages (sterling on ~6-10 days, Nasdaq on ~2) get an inflated bootstrap p and are no longer
 significant, while the well-powered euro cell (60 days) is unchanged. Out: analysis/out/wild_bootstrap.csv
 """
